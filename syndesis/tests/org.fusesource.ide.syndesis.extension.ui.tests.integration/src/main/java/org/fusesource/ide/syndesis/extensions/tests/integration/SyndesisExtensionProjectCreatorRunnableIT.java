@@ -60,7 +60,7 @@ import org.junit.Before;
  */
 public abstract class SyndesisExtensionProjectCreatorRunnableIT extends AbstractProjectCreatorRunnableIT {
 
-	protected static final String CAMEL_RESOURCE_PATH = "src/main/resources/camel/extension.xml";
+	protected static final String CAMEL_RESOURCE_PATH = "src/main/resources/META-INF/syndesis/extensions/log-body-action.xml";
 
 	protected Map<String, String> versions;
 	
