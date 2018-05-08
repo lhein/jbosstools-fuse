@@ -37,6 +37,9 @@
 			org.apache.commons.validator.routines.checkdigit;version=${version.bundle};-noimport:=true;x-friends:="org.fusesource.ide.wsdl2rest.ui",
 			org.jboss.fuse.wsdl2rest;version=${version.bundle};-noimport:=true;x-friends:="org.fusesource.ide.wsdl2rest.ui",
 			org.jboss.fuse.wsdl2rest.impl;version=${version.bundle};-noimport:=true;x-friends:="org.fusesource.ide.wsdl2rest.ui",
+			org.jboss.fuse.wsdl2rest.impl.codegen;version=${version.bundle};-noimport:=true;x-friends:="org.fusesource.ide.wsdl2rest.ui",
+			org.jboss.fuse.wsdl2rest.impl.service;version=${version.bundle};-noimport:=true;x-friends:="org.fusesource.ide.wsdl2rest.ui",
+			org.jboss.fuse.wsdl2rest.impl.writer;version=${version.bundle};-noimport:=true;x-friends:="org.fusesource.ide.wsdl2rest.ui",
 			org.jboss.fuse.wsdl2rest.util;version=${version.bundle};-noimport:=true;x-friends:="org.fusesource.ide.wsdl2rest.ui"
 		</fuse.osgi.export>
 		<fuse.osgi.private.pkg></fuse.osgi.private.pkg>
